@@ -21,9 +21,9 @@ export class ClientesService {
   constructor(private http: HttpClient, private router:Router) { }
 
   getClientes(): Observable<Cliente[]> {
-    //this.clientes = this.http.get(this.urlEndPoint).pipe(map(response => response as Cliente[]));
-    //this.clientes.subscribe((v) => console.log('Clientes: ', v));
-    return this.http.get(this.urlEndPoint).pipe(map(response => response as Cliente[]));
+    return this.http.get(this.urlEndPoint).pipe(
+      map(response => response as Cliente[])
+    );
   }
 
   create(cliente: Cliente) : Observable<Cliente> {
