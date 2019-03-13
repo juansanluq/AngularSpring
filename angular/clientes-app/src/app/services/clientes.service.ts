@@ -16,7 +16,7 @@ export class ClientesService {
 
   private clientes: Observable<Cliente[]>;
 
-  private urlEndPoint:string = "http://localhost:8080/api/clientes";
+  private urlEndPoint:string = "https://vector-angular-backend.herokuapp.com/clientes";
 
   private httpHeaders = new HttpHeaders({'Content-Type': 'application/json'})
 

@@ -1,5 +1,0 @@
-package com.juansanluq.springboot.backend.apirest.models.services;
-
-public class ClienteServiceImpl implements IClienteService {
-
-}
