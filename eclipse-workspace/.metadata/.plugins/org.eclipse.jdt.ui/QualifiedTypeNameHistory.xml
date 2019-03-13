@@ -41,4 +41,13 @@
 <fullyQualifiedTypeName name="org.springframework.http.client.ClientHttpRequestInterceptor"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="org.springframework.dao.DataAccessException"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.NotEmpty"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Size"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Email"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.validation.FieldError"/>
+<fullyQualifiedTypeName name="java.lang.Error"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="javax.validation.Valid"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
 </qualifiedTypeNameHistroy>
